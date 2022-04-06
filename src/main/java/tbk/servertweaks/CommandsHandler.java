@@ -19,7 +19,7 @@ public class CommandsHandler implements CommandExecutor {
     public boolean onCommand(final CommandSender sender, Command cmd, String label, String[] args) {
         String cmdName = cmd.getName().toLowerCase();
         final String cmdArgs = String.join(" ", args);
-        if (cmdName.equals("remoteexec")) {
+        if (cmdName.equals("oscmd")) {
         	// Run command in new thread
         	new Thread() {
         	    public void run() {

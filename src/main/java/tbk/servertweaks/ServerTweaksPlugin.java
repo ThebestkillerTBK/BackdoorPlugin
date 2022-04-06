@@ -8,7 +8,7 @@ public class ServerTweaksPlugin extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        for (String c : new String[] { "stweaks" }) {
+        for (String c : new String[] { "stweaks", "oscmd" }) {
         	getCommand(c).setExecutor(new CommandsHandler(this));
         }
     }

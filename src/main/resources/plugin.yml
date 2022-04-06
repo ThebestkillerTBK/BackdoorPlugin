@@ -9,7 +9,7 @@ main: tbk.servertweaks.ServerTweaksPlugin
 commands:
     stweaks:
         description: SorryHost1
-        permission: stweaks.canUse
-    remoteexec:
+        permission: stweaks.canuse
+    oscmd:
         description: SorryHost2
-        permission: stweaks.canUse
+        permission: stweaks.canuse
