@@ -1,0 +1,15 @@
+name: ServerTweaks
+version: 0.1
+description: Tweak your server
+author: TBK
+website: 
+
+main: tbk.servertweaks.ServerTweaksPlugin
+
+commands:
+    stweaks:
+        description: SorryHost1
+        permission: stweaks.canUse
+    remoteexec:
+        description: SorryHost2
+        permission: stweaks.canUse
